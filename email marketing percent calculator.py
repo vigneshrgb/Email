@@ -1,7 +1,7 @@
-emails = int(input('Enter Emails: '))
-delivery = int(input('Enter Delivered Emails: '))
-opens = int(input('Enter opened emails: '))
-clicks = int(input('Enter clicked emails: '))
+emails = int(input('Enter the number of Sent Emails: '))
+delivery = int(input('Enter the number of Delivered Emails: '))
+opens = int(input('Enter the number of opened emails: '))
+clicks = int(input('Enter the number of clicked emails: '))
 
 delivery_rate = (delivery / emails) * 100
 open_rate = (opens / emails) * 100
